@@ -4,6 +4,8 @@
   "description": "",
   "main": "lib/main.js",
   "scripts": {
+    "build": "NODE_ENV=production webpack lib/main.js dist/react-autocomplete.js",
+    "build-min": "NODE_ENV=production webpack lib/main.js dist/react-autocomplete.min.js --optimize-minimize",
     "test": "echo \"no tests yet, just trust me\" && exit 0"
   },
   "author": "",
